@@ -1,0 +1,95 @@
+body{
+    background-color: #e7c7b0;
+    align-items: center;
+  }
+#titulo{
+    color: brown;
+    text-align: center;
+    font-size:3rem;
+    font-family: 'Darumadrop One', cursive;
+    font-family: 'Delicious Handrawn', cursive;
+    font-family: 'Diphylleia', serif;
+    font-family: 'Konkhmer Sleokchher', cursive;
+    font-family: 'Nanum Pen Script', cursive;
+    font-family: 'Readex Pro', sans-serif;
+    font-family: 'Rock 3D', cursive;
+    font-family: 'Tilt Prism', cursive;
+    border-style:groove;
+    border-color: rgb(239, 189, 7);
+
+}
+/* Para centrar imágenes utilizar los siguentes propiedades
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+*/
+.ImagenTitulo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    background-color: #dc6a6a;
+    width: 60px;
+    border-radius: 70%;
+
+}   
+#indice{
+    border: 5px #e52323 dotted;
+    font-size: xx-large;
+    color: rgb(90, 20, 8);
+    align-items: center;
+    display: flex;
+    flex-direction:column;
+    background-color: #efa09b;
+}
+  .ImagenDibujoAxolote{
+    border-radius: 70%;
+    align-items: center;
+    left: 19em;
+    right: 50em;
+    height: 15em;
+    position:static;
+    top: 5em;
+    padding:auto;
+    margin: auto;
+    display: block;
+}
+.ImagenParAxolotes{
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 300px;
+    display:flex;
+    position:center;
+    border: #dc6a6a;
+    border-radius: 6%;
+    align-items: center;y
+}
+
+.pie1{
+    align-items: center;
+    text-align: center;
+    color: #be4a4a;
+    font-size: small;
+}
+.cuerpo h3{
+    color: rgb(150, 2, 235);
+    text-align: center;
+
+}
+.cuerpo p{
+    text-align: justify;
+}
+#listas h3{
+    color: rgb(150, 2, 235);
+    text-align: center;
+}
+.autor{
+    text-align: center;
+    background: #efa09b;
+    border-bottom: #e52323;
+    border-style:groove;
+    border-radius: 4%;
+}
+*{
+    font-size: x-large;
+}
